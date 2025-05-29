@@ -551,20 +551,20 @@ main{
   .item-1 {
   z-index: 2;
   opacity: 1;
-  background: url('/img/slider_01.jpg');
+  background: url('../img/slider_01.jpg');
   background-size: cover;
   background-position: center ; /* Mueve ligeramente el enfoque vertical */
   background-repeat: no-repeat
 
   }
   .item-2 {
-  background: url('/img/slider_02.jpg');
+  background: url('../img/slider_02.jpg');
   background-size: cover;
   background-position: center ; /* Mueve ligeramente el enfoque vertical */
   background-repeat: no-repeat
   }
   .item-3 {
-  background: url('/img/slider_03.jpg');
+  background: url('../img/slider_03.jpg');
   background-size: cover;
   background-position: center ; /* Mueve ligeramente el enfoque vertical */
   background-repeat: no-repeat
