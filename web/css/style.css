@@ -721,7 +721,9 @@ button {
     margin: 20px;
     padding: 15px;
   }
-
+  .qr img{
+  width: 200%;
+  }
 }
 
 
