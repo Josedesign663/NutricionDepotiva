@@ -28,7 +28,10 @@
                 <li><a href="#Nosotros">Nosotros</a></li>
                 <li><a href="#Servicios">Servicios</a></li>
                 <li><a href="#Contacto">Contacto</a></li>
+                <button id="ver-carrito" class="btn btn-outline-light">🛒 (<span id="cantidad-carrito">0</span>)</button>
+               
             </ul>
+            
         </nav>
     </header>
 
@@ -62,27 +65,27 @@
                         <ul class="grid_lista">
                           <li class="servicios_asesoramiento">
                             <img src="./img/tilde_verde.png" alt="tilde">
-                            <a href="./servicios/nutricionClinica.html" >Nutrición Clínica</a>
+                            <a href="" >Nutrición Clínica</a>
                           </li>
                           <li class="servicios_asesoramiento">
                             <img src="./img/tilde_verde.png" alt="tilde">
-                            <a href="./servicios/nutricionClinica.html">Planes personalizados</a>
+                            <a href="">Planes personalizados</a>
                           </li>
                           <li class="servicios_asesoramiento">
                             <img src="./img/tilde_verde.png" alt="tilde">
-                            <a href="./servicios/nutricionClinica.html">Prevención de lesiones</a>
+                            <a href="">Prevención de lesiones</a>
                           </li>
                           <li class="servicios_asesoramiento">
                             <img src="./img/tilde_verde.png" alt="tilde">
-                            <a href="./servicios/nutricionClinica.html">Planes de hidratación</a>
+                            <a href="">Planes de hidratación</a>
                           </li>
                           <li class="servicios_asesoramiento">
                             <img src="./img/tilde_verde.png" alt="tilde">
-                            <a href="./servicios/nutricionClinica.html">Suplementación deportiva</a>
+                            <a href="">Suplementación deportiva</a>
                           </li>
                           <li class="servicios_asesoramiento">
                             <img src="./img/tilde_verde.png" alt="tilde">
-                            <a href="./servicios/nutricionClinica.html">Antropometría</a>
+                            <a href="">Antropometría</a>
                           </li>
                         </ul>
                       </div>
@@ -93,8 +96,8 @@
             
             <!--  botonera main  -->          
             <div class="botonera">
-                <a href="./login.html" class="btn-login_01">Iniciar sesión</a>
-                <a href="./login.html" class="btn-login">Registrarse</a> 
+                <a href="./login/login.html" class="btn-login_01" target="_blank">Iniciar sesión</a>
+                <a href="./login/login.html" class="btn-login" target="_blank">Registrarse</a> 
             </div>                                                   
 
                     
@@ -184,76 +187,78 @@
 
         <br><br><br>
             
-        <div class="servicios">
 
 
-            <!-- tarjetas con cada servicio -->
+  <!-- Contenedor de servicios -->
+  <div class="servicios">
                 <div class="target">
-                    <h3>Nutrición clínica</h3>
-                    <div class="icon">
-                        <img src="./img/clinica.png" alt="">  
-                    </div>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque, dicta ipsam? Cupiditate.</p>
-                    <div>
-                        <img src="./img/flecha.png" alt="flecha"> 
-                    </div>
+                <h3>Nutrición clínica</h3>
+                <div class="icon"><img src="./img/clinica.png" alt=""></div>
+                <p>Plan personalizado para mejorar tu salud integral.</p>
+                <div><img src="./img/flecha.png" alt="flecha"></div>
+                <p class="precio">$60.000 ARS</p>
+                <button class="boton" data-nombre="NutricionClinica" data-precio="60000">Agregar al carrito</button>
                 </div>
+
                 <div class="target">
-                    <h3>Planes personalizados</h3>
-                    <div class="icon">
-                        <img src="./img/plaes_personalizados.png" alt="">  
-                    </div>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque, dicta ipsam? Cupiditate.</p>
-                    <div>
-                        <img src="./img/flecha.png" alt="flecha">  
-                    </div>
-                    
+                <h3>Planes personalizados</h3>
+                <div class="icon"><img src="./img/plaes_personalizados.png" alt=""></div>
+                <p>Rutinas y alimentación adaptadas a tus objetivos.</p>
+                <div><img src="./img/flecha.png" alt="flecha"></div>
+                <p class="precio">$80.000 ARS</p>
+                <button class="boton" data-nombre="PlanesPersonalizados" data-precio="80000">Agregar al carrito</button>
                 </div>
+
                 <div class="target">
-                    <h3>Prevención de lesiones</h3>
-                    <div class="icon">
-                        <img src="./img/lesiones.png" alt="">  
-                    </div>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque, dicta ipsam? Cupiditate.</p>
-                    <div>
-                        <img src="./img/flecha.png" alt="flecha">   
-                    </div>
-                    
+                <h3>Prevención de lesiones</h3>
+                <div class="icon"><img src="./img/lesiones.png" alt=""></div>
+                <p>Evaluación para evitar lesiones comunes en el deporte.</p>
+                <div><img src="./img/flecha.png" alt="flecha"></div>
+                <p class="precio">$40.000 ARS</p>
+                <button class="boton" data-nombre="PrevencionDeLesiones" data-precio="40000">Agregar al carrito</button>
                 </div>
+
                 <div class="target">
-                    <h3>Planes de hidratación</h3>
-                    <div class="icon">
-                        <img src="./img/hidratacion.png" alt="">  
-                    </div>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque, dicta ipsam? Cupiditate.</p>
-                    <div>
-                        <img src="./img/flecha.png" alt="flecha">   
-                    </div>
-                    
+                <h3>Planes de hidratación</h3>
+                <div class="icon"><img src="./img/hidratacion.png" alt=""></div>
+                <p>Optimiza tu rendimiento con hidratación adecuada.</p>
+                <div><img src="./img/flecha.png" alt="flecha"></div>
+                <p class="precio">$30.000 ARS</p>
+                <button class="boton" data-nombre="PlanesDeHidratacion" data-precio="30000">Agregar al carrito</button>
                 </div>
+
                 <div class="target">
-                    <h3>Suplementación</h3>
-                    <div class="icon">
-                        <img src="./img/suplementos.png" alt="">  
-                    </div>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque, dicta ipsam? Cupiditate.</p>
-                    <div>
-                        <img src="./img/flecha.png" alt="flecha">   
-                    </div>
-                    
+                <h3>Suplementación</h3>
+                <div class="icon"><img src="./img/suplementos.png" alt=""></div>
+                <p>Asesoramiento sobre suplementos según tus necesidades.</p>
+                <div><img src="./img/flecha.png" alt="flecha"></div>
+                <p class="precio">$35.000 ARS</p>
+                <button class="boton" data-nombre="Suplementacion" data-precio="35000">Agregar al carrito</button>
                 </div>
+
                 <div class="target">
-                    <h3>Estudio Antropometría</h3>
-                    <div class="icon">
-                        <img src="./img/antropometria.png" alt="">  
-                    </div>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque, dicta ipsam? Cupiditate.</p>
-                    <div>
-                        <img src="./img/flecha.png" alt="flecha">   
-                    </div>
-                    
+                <h3>Estudio Antropometría</h3>
+                <div class="icon"><img src="./img/antropometria.png" alt=""></div>
+                <p>Mediciones corporales para rendimiento deportivo.</p>
+                <div><img src="./img/flecha.png" alt="flecha"></div>
+                <p class="precio">$65.000 ARS</p>
+                <button class="boton" data-nombre="EstudioAntropometria" data-precio="65000">Agregar al carrito</button>
                 </div>
-             <!-- Fin tarjetas con cada servicio -->
+            </div>
+
+            <!-- Carrito desplegable -->
+            <div id="carrito" style="display:none; position: fixed; top: 200px; right: 20px; border: 1px solid #ABC538; padding: 20px; background: #ABC538; width: 300px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); z-index: 999;">
+                <h3 style="color: #171721;">Servicios seleccionados</h3>
+                <ul id="lista-carrito"></ul>
+                <p><strong style="color: firebrick;">Total: $<span id="total-carrito">0</span></strong></p>
+                <button id="pagar-carrito" style="background-color: #171721; color: #fff; font-weight: bold; cursor: pointer;">Pagar</button>
+                <button id="vaciar-carrito" style="color: #191a19; background-color: aliceblue;">Vaciar carrito</button>
+                
+            </div>
+
+
+
+            <!-- Fin tarjetas con cada servicio -->
 
 
 
@@ -269,29 +274,30 @@
 
 <!--  ACA EMPIEZA LA SECCION "CONTACTO" -->
 
-    <section id="Contacto" class="container_contacto">
+<section id="Contacto" class="container_contacto">
+  <div class="contacto">
+    <h2>Contáctanos</h2>
 
-        <div class="contacto">
-            <h2>Contáctanos</h2>
-            <form action="#" method="post">
-            <label for="nombre">Nombre</label>
-            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre..." required />
-        
-            <label for="email">Correo electrónico</label>
-            <input type="email" id="email" name="email" placeholder="Tu correo..." required />
-        
-            <label for="mensaje">Mensaje</label>
-            <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje..." required></textarea>
-        
-            <button type="submit">Enviar</button>
-            </form>
-        </div>
+    <form action="https://formspree.io/f/xjkobqya" method="POST">
+      <label for="nombre">Nombre</label>
+      <input type="text" id="nombre" name="nombre" placeholder="Tu nombre..." required />
 
+      <label for="email">Correo electrónico</label>
+      <input type="email" id="email" name="email" placeholder="Tu correo..." required />
 
+      <label for="mensaje">Mensaje</label>
+      <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje..." required></textarea>
 
+      <!-- Campo oculto para evitar bots -->
+      <input type="text" name="_gotcha" style="display:none">
 
-    </section>
+      <!-- Redirección después de enviar -->
+      <input type="hidden" name="_redirect" value="gracias.html" />
 
+      <button type="submit">Enviar</button>
+    </form>
+  </div>
+</section>
 
 <!-- FIN SECCION "CONTACTO" -->
 
